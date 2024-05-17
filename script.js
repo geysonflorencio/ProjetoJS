@@ -89,7 +89,7 @@ function editarContato(index) {
     document.getElementById('nome').value = contato.nome;
     document.getElementById('email').value = contato.email;
     document.getElementById('numero').value = contato.numero;
-    document.getElementById('cadastro').value = "Salvar"
+    document.getElementById('cadastro').value = "Atualizar"
 
     editIndex = index;
 }
